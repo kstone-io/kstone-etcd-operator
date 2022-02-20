@@ -1,0 +1,37 @@
+apiVersion: "etcd.tkestack.io/v1alpha1"
+kind: "EtcdCluster"
+metadata:
+  name: "example-etcd-cluster"
+spec:
+  size: 4
+  version: "3.4.13"
+  learners: ["3"]
+  secure:
+    tls:
+      autoTLSCert:
+        autoGenerateServerCert: true
+        autoGeneratePeerCert: true
+        autoGenerateClientCert: true
+        extraServerCertSANs: ["a.b.com"]
+  template:
+    labels:
+      etcd-name: example-etcd-cluster
+    affinity:
+      podAntiAffinity:
+        requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchExpressions:
+                - key: etcd-name
+                  operator: In
+                  values:
+                    - example-etcd-cluster
+            topologyKey: kubernetes.io/hostname
+    persistentVolumeClaimSpec:
+      accessModes:
+        - ReadWriteOnce
+      resources:
+        requests:
+          storage: 20Gi
+      storageClassName: cbs
+      volumeMode: Filesystem
+

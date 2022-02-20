@@ -1,0 +1,154 @@
+apiVersion: v1
+data:
+  ca.pem: |
+    -----BEGIN CERTIFICATE-----
+    MIIDRzCCAi+gAwIBAgIIVh6SbGxYf4QwDQYJKoZIhvcNAQELBQAwMjELMAkGA1UE
+    BhMCQ04xFDASBgNVBAoTC3RrZXN0YWNrLmlvMQ0wCwYDVQQDEwR0YXBwMB4XDTIy
+    MDIxOTIwMDcxOVoXDTQyMDIxOTIwMDcxOVowMjELMAkGA1UEBhMCQ04xFDASBgNV
+    BAoTC3RrZXN0YWNrLmlvMQ0wCwYDVQQDEwR0YXBwMIIBIjANBgkqhkiG9w0BAQEF
+    AAOCAQ8AMIIBCgKCAQEAsD8ucJNU/b8Jx63Oji5s+CTGyoc7FXkdkcuR/AD4gQjd
+    0n5F4yWbm2A52gyrxGwVwAbKsqsXbQlmoiSIKFVkMYmIySDWKZLIqjBRSRfPf1p/
+    MsbOgYDxhdYugXKojIHTwnXzQjOLUzDFkf1LtXfi8UwYKrSVYVInNKE4luFQOTAA
+    YdYIvllZRMPGTjx/RcZr+f9xRHNl3AbJylT5ALBy7xRbqcJ42/9gIWtarBgj9nP1
+    /rE9lN3PwQyN3puUWWSjTy/LAzGW/30+CsQUkJNPRig7sIQ1EksXDwTXrFytARrM
+    6Ge3NcA0ZgV3qLJzRCIPfK60IPxcbRXqrWrAT3kudwIDAQABo2EwXzAOBgNVHQ8B
+    Af8EBAMCAoQwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMA8GA1UdEwEB
+    /wQFMAMBAf8wHQYDVR0OBBYEFJvnXoNTMniFPLhI+D3e9ae58eQQMA0GCSqGSIb3
+    DQEBCwUAA4IBAQCiGsuOrKoGdOIaevZlV/P6PjrtCoNzfdd+tXbwAXGHZspkDAvW
+    1FUoOpuxg/OIMO1NCgby2dypUY9fdwsEZPokWIqLDoZnR1XTrA5hF2xhmk0+2y2b
+    WfKYozqI11psfy6kbv1yNMzFUWr0xku5i0t/grqUDdH06xw+ao0nsiK/btFtDIR2
+    eHh1SHLUa+1bYQTEBRV/4uwziUKLrRUNNuFg1aPzufdPWwWpVOlubkevFNq0hhM7
+    pT9y/sYA0F7qrXhhkI1tAhZW2/SHVpoN54WwIpDLUiW3Kz+RK2ziy99QbQDQoFLd
+    vzynPZAhu8laOUwODHFHyP1n6+NeM3pnim6+
+    -----END CERTIFICATE-----
+  server.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDjzCCAnegAwIBAgIIH1R++L/q/9kwDQYJKoZIhvcNAQELBQAwMjELMAkGA1UE
+    BhMCQ04xFDASBgNVBAoTC3RrZXN0YWNrLmlvMQ0wCwYDVQQDEwR0YXBwMB4XDTIy
+    MDIxOTIwMDcxOVoXDTQyMDIxOTIwMDcxOVowTTELMAkGA1UEBhMCQ04xFDASBgNV
+    BAoTC3RrZXN0YWNrLmlvMSgwJgYDVQQDEx90YXBwLWNvbnRyb2xsZXIua3ViZS1z
+    eXN0ZW0uc3ZjMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsSuRMZ5F
+    nzSmQmiBS7oajxSyeXaHXu7mLEP1i/ersYSTO1CTFEWvfrUs8RDmMi11tJQRP7EP
+    iT+lmWUQGcskKv2HUrRQksufadLvy+dGQGE/hJkiD8P3pLJSb9e4wQKma/r/mlYw
+    9Fe72/uJ6zYcvwJyD5IIFEjP+guV5wxxwjDr1d/+LMwz63pggOOJNrh8HTJR3H7l
+    8+X6fbPsDfepgHXuFCt6QxoLKoKm6KDjDYGlY4t00T7o/Y4Eddz62QrwIeqn6Sb/
+    bSbfiffrIS6I2LP4+L+cLUNHdSUlIMlyq+J99TbVuMYkJ5V1ei/y0FqVeWK+Jeyq
+    RC4/njALT+MItQIDAQABo4GNMIGKMA4GA1UdDwEB/wQEAwIChDAdBgNVHSUEFjAU
+    BggrBgEFBQcDAgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSb
+    516DUzJ4hTy4SPg93vWnufHkEDAqBgNVHREEIzAhgh90YXBwLWNvbnRyb2xsZXIu
+    a3ViZS1zeXN0ZW0uc3ZjMA0GCSqGSIb3DQEBCwUAA4IBAQANclAj/m56zh/CHU2Z
+    9YaqGQQAcwp7uCqVvtv6jv2ELvGPW/JTgpTcOW5o9cOhRl0C12uvZLm/+hOuhRwc
+    iZt5qkqjt1zDMZ+xo4mcpkK5ODv2b+i2weLkTBop3OUXVhV/70kxhufrdg5DXbzK
+    Vy2IvPA11yR7gxMS0YFzBAZioAGpNXMv4Y636RV7QsjTt5PqV+vlYifoqGIPBpM6
+    z67qlCg4M8LW92QdLMCSGgA87ILICQbh5+WxuftuhUpJwj+eQa8cl+Fl0XI4PJYC
+    OGwK4QdzeW7Q5/Dccb0+GgslUcIhttpiU4HzSmeDaJ6pYjjYoKMIwHVr+JlSe2aa
+    EP/l
+    -----END CERTIFICATE-----
+  server.key: |
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEogIBAAKCAQEAsSuRMZ5FnzSmQmiBS7oajxSyeXaHXu7mLEP1i/ersYSTO1CT
+    FEWvfrUs8RDmMi11tJQRP7EPiT+lmWUQGcskKv2HUrRQksufadLvy+dGQGE/hJki
+    D8P3pLJSb9e4wQKma/r/mlYw9Fe72/uJ6zYcvwJyD5IIFEjP+guV5wxxwjDr1d/+
+    LMwz63pggOOJNrh8HTJR3H7l8+X6fbPsDfepgHXuFCt6QxoLKoKm6KDjDYGlY4t0
+    0T7o/Y4Eddz62QrwIeqn6Sb/bSbfiffrIS6I2LP4+L+cLUNHdSUlIMlyq+J99TbV
+    uMYkJ5V1ei/y0FqVeWK+JeyqRC4/njALT+MItQIDAQABAoIBADgpjmpDOODCCN5O
+    UIZX5Wlr7zOvzjPa2V444NLQ3T11wFJyNV2cxYgOGMQGTmKjpIds1JbzIvCoG2+n
+    6NW0Xq++FLKz9ELEh7E9K8TgeJWZ/k+jV3fV8F/mI1nO8YNFusnKFFKxde1PDn8q
+    msrUKYKnXM7wxNzhRASIvakzebBL2Grtpmm4qS4/554iC5ZAuQqMAuh8cBb5AM7G
+    QcSOejvZIYoGFPfZJ6tQhe/EcKEtZvcXSnSjOox9tr/LFKtZtdfiK41w3rmeKqe7
+    WZL1IPw3qb4ZtHHPWET95yB8X7suxqXBWtwSYcM5QKZGNfYMsDY/NKTMozELQHDm
+    Gkm8BmECgYEA5IjxETesU/ageWkfAQCMo0iTK+UHh8AeV9BIbW+4t99XfmXjeyY4
+    SDgBnDImssKHXtA92pwsNq3mXSgxjGcIMu/t2BZiQngH48TyHVo4R58zoVS2vcMZ
+    bTyK8pq0q/IzjdEa0KwovwIiMsVGznL1BOi9ulxBKubWJjdrwwjpLz0CgYEAxnZZ
+    MNAefvRuYNBmYRinsmSyG2ZwQDRIre48R8kJ9a3xLulr7dZocKoFTvnT1Hhl4ueo
+    6u7Tipljt3Oy8USfS0daxyDgKnx5BUip9d7u0AzsQEFsqXuzdPNcLT6z+vdD1TwH
+    A7zin/246K8utkW6wl+VZCZRwLojsq3fiZOB1tkCgYAMOc87rpDHhSAcnqUL9q2P
+    ZqiI5p26g2qcJAZb5GgrXgVeO7Epu2ezZVugsYYkdger6NQGR+iNnEwAm8/axQBJ
+    SVCeCMSE7cruQnD5ZQQxwLCQZunHyRIpJ93/EIutzy023wLiOvOLFGAj+y3IiZnW
+    A2Vy/NB3rRWzwa9AJc/juQKBgHkQNLQsII49OR/hwLI2QgX2mxdP0+W2fydqjmcT
+    4fl2VAvT5Dy/cBJaBMb6axfPIgfaXRaC/ZQsocGE2IGI5MsdCekyysvgBksM2nDb
+    vz42w98micyRYxVSZsZK26uaLkzjQzwqeuwx8Bww0QPrYVO0zwK6xWAVrDURD61y
+    x99xAoGAaKmXbH56c8cyHHWd6Kfgjpn6acBCd1/FI0lXeC/XVPuOUrEvD51CZny+
+    eUolsMjS6ClE5GWgq0h0dcXOXy/Ublu0jkI6532qXz1Gk/OCoP8zZv5QUEgPgyPx
+    ocrO/cGqRmFFPH6OiGYwf8oKwS/RgFSNZhaEug4FwQtsHJwbkFc=
+    -----END RSA PRIVATE KEY-----
+kind: ConfigMap
+metadata:
+  name: tapp-controller-certs
+  namespace: kube-system
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: tapp-controller
+  namespace: kube-system
+spec:
+  ports:
+    - port: 443
+      protocol: TCP
+      targetPort: 8443
+  selector:
+    app: tapp-controller
+  sessionAffinity: None
+  type: ClusterIP
+---
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: tapp-controller
+  namespace: kube-system
+
+---
+kind: ClusterRoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: tapp-controller-role-binding
+subjects:
+  - kind: ServiceAccount
+    name: tapp-controller
+    namespace: kube-system
+roleRef:
+  kind: ClusterRole
+  name: cluster-admin
+  apiGroup: rbac.authorization.k8s.io
+
+---
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: tapp-controller
+  namespace: kube-system
+spec:
+  selector:
+    matchLabels:
+      app: tapp-controller
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: tapp-controller
+    spec:
+      serviceAccountName: tapp-controller
+      containers:
+        - name: tapp-controller
+          image: tkestack/tapp-controller:v1.2.1
+          args:
+            - "--v=3"
+            - "--register-admission=true"
+            - "--tlsCAFile=/etc/tapp/certs/ca.pem"
+            - "--tlsCertFile=/etc/tapp/certs/server.crt"
+            - "--tlsKeyFile=/etc/tapp/certs/server.key"
+          imagePullPolicy: "Always"
+          resources:
+            requests:
+              "cpu": "1"
+              "memory": "512Mi"
+          volumeMounts:
+            - mountPath: /etc/tapp/certs
+              name: tapp-controller-certs
+      volumes:
+        - configMap:
+            defaultMode: 420
+            name: tapp-controller-certs
+          name: tapp-controller-certs

@@ -1,0 +1,204 @@
+apiVersion: v1
+data:
+  tls.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDdjCCAl6gAwIBAgIIJHOlprxSdoUwDQYJKoZIhvcNAQELBQAwQjELMAkGA1UE
+    BhMCQ04xFDASBgNVBAoTC3RrZXN0YWNrLmlvMR0wGwYDVQQDExRrc3RvbmUtZXRj
+    ZC1vcGVyYXRvcjAeFw0yMjAxMjExMzM5MTNaFw00MjAxMjExMzM5MTNaMEIxCzAJ
+    BgNVBAYTAkNOMRQwEgYDVQQKEwt0a2VzdGFjay5pbzEdMBsGA1UEAxMUa3N0b25l
+    LWV0Y2Qtb3BlcmF0b3IwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCc
+    KKEurKeOpYK938saREeNlRsVqD0nNPV8oitrgVR/DXcRijfWLTXL/dMjSvQYf0HA
+    Smo1SFBXMa9p5RzVp8mIFkCvhOmB0RNarzuI/vrar04aDFYnCpq08SqxtBnSTWjh
+    HTRdaIzWZGOvA2NVFLePNZFP3d0NBin0/P1mkt4ontz9ok4HUh8QC56Ps+e6z6bI
+    UMmmDkiBibQYoZR9TeJh6ZWiF1snjUyvNAfMx0JHcd3WYencHcFRnLGjLAqqazZl
+    iftU3f2TGshEhTqoDcrgHd7bboENoy4N+y62Axn7zutVWMgJedTf9IZr880Srb96
+    1IQ3dE23WDKItBBd6Mq3AgMBAAGjcDBuMA4GA1UdDwEB/wQEAwIChDAdBgNVHSUE
+    FjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAvBgNVHREEKDAm
+    giRrc3RvbmUtZXRjZC1vcGVyYXRvci5rdWJlLXN5c3RlbS5zdmMwDQYJKoZIhvcN
+    AQELBQADggEBAHIpH7Ny3YAM/2JpjBONmem6strlGbuVZDzWjACiY5lJQElE084I
+    i8JywNR5yO/L68n0vpD+8J6IegkKxB1kaE9f6zcY9eHtpUJmIdMN2G3l7Nw9Akkk
+    lCDs2Ll+BcQ6zpbVTcV0nFuhjCjiwlhlel5q43HaWuI8YdZLOTsBpGe9fr4CDMEt
+    BLGi0C0S6CrXmywqsExYEtC2RGva7qn5SZOwcMthbzNmimD4cKjXRUvpV8k7arew
+    gCfeHJS+n+9lkvXKMaA4gEDcfD4FVDBbYfkp5+cDupTvh579+fKmEnvxpO5pTWYa
+    3FX51iTyowtkm64kdkX8c9+azMV8I4eCBdg=
+    -----END CERTIFICATE-----
+  tls.key: |
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEpQIBAAKCAQEAnCihLqynjqWCvd/LGkRHjZUbFag9JzT1fKIra4FUfw13EYo3
+    1i01y/3TI0r0GH9BwEpqNUhQVzGvaeUc1afJiBZAr4TpgdETWq87iP762q9OGgxW
+    JwqatPEqsbQZ0k1o4R00XWiM1mRjrwNjVRS3jzWRT93dDQYp9Pz9ZpLeKJ7c/aJO
+    B1IfEAuej7Pnus+myFDJpg5IgYm0GKGUfU3iYemVohdbJ41MrzQHzMdCR3Hd1mHp
+    3B3BUZyxoywKqms2ZYn7VN39kxrIRIU6qA3K4B3e226BDaMuDfsutgMZ+87rVVjI
+    CXnU3/SGa/PNEq2/etSEN3RNt1gyiLQQXejKtwIDAQABAoIBAGL6MaeG0bFNYL/+
+    kBo2+u9XedJRT2mBXLPBiina0HazTyvz4o5DG50PZfsxr+OzDTbXM9hP3HRXzqod
+    CRi2/7rc9+UIJoUcwtqwxNiBXPitMqC5/wVB6GsVjQ0TbWZpoDdHLoCiGtpsyO4O
+    BLDRr8L6nf70Tf7KUF+y1t5j6qHtiftWPkIGcFIMgv6fH56ngsoNaaDwyTjcALpI
+    r/6wtJKFqoBImw41S5Ooq3XwloW4Y6gAZaHkzGWInqtW6OIdTJslr8/1UKxYs0in
+    sZphItSRhh+3LnukTlfau4tEV5G3lmqFj9e0vgRvYBLAYqNfchc4f903er4bT97+
+    X1TVoHECgYEAw951COsNv8HJAcWmOngFFjgJhXu02Hnf5KLVrTkMBlkwZgvvlnt1
+    EvBuwMq5VwRzoERf6ddFJo0iLnHlJCtyGMQWKii0LlAWIYobzqw+L03d0WBzd1S5
+    xwr6A3NYdx9/QAjczx/kroLMVw2OfE+wt9c3tvmmbowuuXL2mBzdIVkCgYEAzBlN
+    Xma3cYnmQupFsifVgdsAiW2KbOUsqDgj9PoKHVc7GwC5J5zAyCBmx/mUgeFyky7F
+    0l/0nPJ1sRzE/ETxOQpZWpnQAzRkLzWNcTi9JHT32ae9YIo5GD/FJwIOOrhGnwcd
+    cAbofgLmLWukpJJ8ae1EhJUxFpgNu+apDNPdOo8CgYEAjqJ4Hdd2Orc21qiFRbzT
+    D3wdSuxsJNyTs970teF+JT1b5mQ4xCABgJpAPPsj/v9J6GMCabqPK+TJCIN+d1mA
+    DBL3hRoBJFzD0QbO+zEpU69joi6Xx0WWyCDxMgQUXyM7unj5u4ehM4gioB5KLbKm
+    oSoD86ZXkddZy0ix1NHoInkCgYEAjK7sK6P10qdRNtKxE+ptO0MwDYqaHhGiRJnd
+    /yDTFAJq1WQcPHfKUqgy8KjSeuxhw5478ZT+0ag3A8xm49TJyZ2eldrsDSlx3TC2
+    vFJ13clahoce/IqKbHKYfRjnogYfd8K5wdyhKSrqamiGZoIqjAFmd1U3LvHElb6a
+    zCLFnXUCgYEAviqHNY5nANxab4DAEIzi4W8GAQEpmlZRlOadvA42f7qgNEtQPBKm
+    Orbeg8PbXMaT9l+b/fKF1P2L/2XMJLbx3VRDFdOgEHyUGcEnEt04k0FsJDQ8Z011
+    O3lm73P5SewLU0KCdpiMk2/fjZuq02YiLz0mFjJ2+adjVmoxZuJsB+k=
+    -----END RSA PRIVATE KEY-----
+kind: ConfigMap
+metadata:
+  name: kstone-etcd-operator-cert
+  namespace: kube-system
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: kstone-etcd-operator
+  namespace: kube-system
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: kstone-etcd-operator
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin
+subjects:
+  - kind: ServiceAccount
+    name: kstone-etcd-operator
+    namespace: kube-system
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kstone-etcd-operator
+  namespace: kube-system
+  labels:
+    app: kstone-etcd-operator
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: kstone-etcd-operator
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: kstone-etcd-operator
+    spec:
+      containers:
+        - command:
+            - /app/bin/kstone-etcd-operator
+          args:
+            - --leader-elect-resource-namespace=kube-system
+            - --tls-cert-file=/etc/certs/tls.crt
+            - --tls-private-key-file=/etc/certs/tls.key
+            - --v=3
+          env:
+            - name: WATCH_NAMESPACE
+            - name: POD_NAME
+              valueFrom:
+                fieldRef:
+                  apiVersion: v1
+                  fieldPath: metadata.name
+            - name: OPERATOR_NAME
+              value: kstone-etcd-operator
+          image: tkestack/kstone-etcd-operator-amd64:v0.0.1-alpha.3
+          imagePullPolicy: Always
+          name: kstone-etcd-operator
+          resources:
+            requests:
+              "cpu": "1"
+              "memory": "512Mi"
+          volumeMounts:
+            - mountPath: /etc/certs
+              name: kstone-etcd-operator-cert
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: { }
+      serviceAccount: kstone-etcd-operator
+      serviceAccountName: kstone-etcd-operator
+      terminationGracePeriodSeconds: 30
+      tolerations:
+        - effect: NoSchedule
+          key: node-role.kubernetes.io/master
+          operator: Exists
+      volumes:
+        - configMap:
+            defaultMode: 420
+            name: kstone-etcd-operator-cert
+          name: kstone-etcd-operator-cert
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kstone-etcd-operator
+  namespace: kube-system
+  labels:
+    app: kstone-etcd-operator
+spec:
+  ports:
+    - port: 443
+      protocol: TCP
+      targetPort: 443
+  selector:
+    app: kstone-etcd-operator
+  type: ClusterIP
+---
+apiVersion: admissionregistration.k8s.io/v1
+kind: MutatingWebhookConfiguration
+metadata:
+  name: kstone-etcd-operator-mutating-admission
+webhooks:
+  - clientConfig:
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURaekNDQWsrZ0F3SUJBZ0lJTWpTQTBCbFJNdWN3RFFZSktvWklodmNOQVFFTEJRQXdRakVMTUFrR0ExVUUKQmhNQ1EwNHhGREFTQmdOVkJBb1RDM1JyWlhOMFlXTnJMbWx2TVIwd0d3WURWUVFERXhScmMzUnZibVV0WlhSagpaQzF2Y0dWeVlYUnZjakFlRncweU1qQXhNakV4TXpNNU1UTmFGdzAwTWpBeE1qRXhNek01TVROYU1FSXhDekFKCkJnTlZCQVlUQWtOT01SUXdFZ1lEVlFRS0V3dDBhMlZ6ZEdGamF5NXBiekVkTUJzR0ExVUVBeE1VYTNOMGIyNWwKTFdWMFkyUXRiM0JsY21GMGIzSXdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFERQpva2NtWnh6L1hwb1FTOXNnQUxxZ2gxUDN5U0hwQlBpaUNzTzlpaWtkODVaYnlNQUszaEtqQ2ZPeUdWVzlZMDFNCmVQN0dHRkhXRlRnRkhqWnVSQlZVVUxrQ3hFbktBTDZ5bGZZcVRjMWQxM0F6UkU0azlocDdjbmp3cC9QNUdBdkUKOThyMFFtM1VGd1gvQTVCN3RMWVFCVU5rUUVzajJHTnFqbUZTc2tEK2lGNWRjWkEyeDFzSGlBczlsdE5LVGlIQQpKVE1IbTNNOWQyUXN3S2pDWHFjWnQwOUJFSS8wT25RenRYQUJOQjU4RitKeGJhc0F0eHNuck0rb2ptendGaHB6Ci9mbmFZWGxnZWhWWGpUU2J2M2w1TXV6Z05Gd1Q3VCtwVkFkU0NoNlFoTFJWRzVpQitmWmMrNGI0SnFKVWdackUKNXkzNWxYSGhSOWtIMjRTN2xHUUZBZ01CQUFHallUQmZNQTRHQTFVZER3RUIvd1FFQXdJQ2hEQWRCZ05WSFNVRQpGakFVQmdnckJnRUZCUWNEQWdZSUt3WUJCUVVIQXdFd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFCkZnUVVHc1hRQXc1Y1Y4SElSeE5DOFFqLzhueXNBU2d3RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUdKWktudkcKdXdHU3ZYZVhBdTd1KzRkS2JwT3dxTFo5clQ4Ly81aVQxL25UU1NET1c1YmxFMlI0aXZrb1FVd05PNXIvakRFMApubDlJeGRnR0ptR1FxL3oyVWwrWllGcWVVL1NRaG4rTFloK1NyNlNTTC82ZGEzcjAzUk0zN1lIbVNHekxpbGRqCnRWVHA0eWFDUEMzd1REcm1jOFlqSnBocE5MMU1iVGRCd2hSaHk0bmRHOXh6aXBST2c0QkUyZmZUVkhHWXlJemoKRWY2b1NZQ1dCSXlFc2U3a0FLc3VhTXFNWFNxQnoyazNvMjhOckdBa3ZOOWQwU1FML0p3clRtRGFBcko5bDBKNQpNYzdiYU1WL0k5Z1FuNWpKR01tK3FKK2FnSHN2N2dSbHNPUnZoZ1dwWk4raEIzSzJXcTEvejZBaXo2Tkp0ZnZUClJkT3prOUZ1VEFpdFdDZz0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQ==
+      service:
+        name: kstone-etcd-operator
+        namespace: kube-system
+        path: "/mutating-etcd"
+    failurePolicy: Fail
+    name: kstone-etcd-operator.kube-system.svc
+    admissionReviewVersions: ["v1"]
+    sideEffects: NoneOnDryRun
+    rules:
+      - apiGroups: [ "etcd.tkestack.io" ]
+        apiVersions: [ "v1alpha1" ]
+        operations: [ "CREATE", "UPDATE" ]
+        resources: [ "etcdclusters" ]
+---
+apiVersion: admissionregistration.k8s.io/v1
+kind: ValidatingWebhookConfiguration
+metadata:
+  name: kstone-etcd-operator-validating-admission
+webhooks:
+  - clientConfig:
+      caBundle: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURaekNDQWsrZ0F3SUJBZ0lJTWpTQTBCbFJNdWN3RFFZSktvWklodmNOQVFFTEJRQXdRakVMTUFrR0ExVUUKQmhNQ1EwNHhGREFTQmdOVkJBb1RDM1JyWlhOMFlXTnJMbWx2TVIwd0d3WURWUVFERXhScmMzUnZibVV0WlhSagpaQzF2Y0dWeVlYUnZjakFlRncweU1qQXhNakV4TXpNNU1UTmFGdzAwTWpBeE1qRXhNek01TVROYU1FSXhDekFKCkJnTlZCQVlUQWtOT01SUXdFZ1lEVlFRS0V3dDBhMlZ6ZEdGamF5NXBiekVkTUJzR0ExVUVBeE1VYTNOMGIyNWwKTFdWMFkyUXRiM0JsY21GMGIzSXdnZ0VpTUEwR0NTcUdTSWIzRFFFQkFRVUFBNElCRHdBd2dnRUtBb0lCQVFERQpva2NtWnh6L1hwb1FTOXNnQUxxZ2gxUDN5U0hwQlBpaUNzTzlpaWtkODVaYnlNQUszaEtqQ2ZPeUdWVzlZMDFNCmVQN0dHRkhXRlRnRkhqWnVSQlZVVUxrQ3hFbktBTDZ5bGZZcVRjMWQxM0F6UkU0azlocDdjbmp3cC9QNUdBdkUKOThyMFFtM1VGd1gvQTVCN3RMWVFCVU5rUUVzajJHTnFqbUZTc2tEK2lGNWRjWkEyeDFzSGlBczlsdE5LVGlIQQpKVE1IbTNNOWQyUXN3S2pDWHFjWnQwOUJFSS8wT25RenRYQUJOQjU4RitKeGJhc0F0eHNuck0rb2ptendGaHB6Ci9mbmFZWGxnZWhWWGpUU2J2M2w1TXV6Z05Gd1Q3VCtwVkFkU0NoNlFoTFJWRzVpQitmWmMrNGI0SnFKVWdackUKNXkzNWxYSGhSOWtIMjRTN2xHUUZBZ01CQUFHallUQmZNQTRHQTFVZER3RUIvd1FFQXdJQ2hEQWRCZ05WSFNVRQpGakFVQmdnckJnRUZCUWNEQWdZSUt3WUJCUVVIQXdFd0R3WURWUjBUQVFIL0JBVXdBd0VCL3pBZEJnTlZIUTRFCkZnUVVHc1hRQXc1Y1Y4SElSeE5DOFFqLzhueXNBU2d3RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUdKWktudkcKdXdHU3ZYZVhBdTd1KzRkS2JwT3dxTFo5clQ4Ly81aVQxL25UU1NET1c1YmxFMlI0aXZrb1FVd05PNXIvakRFMApubDlJeGRnR0ptR1FxL3oyVWwrWllGcWVVL1NRaG4rTFloK1NyNlNTTC82ZGEzcjAzUk0zN1lIbVNHekxpbGRqCnRWVHA0eWFDUEMzd1REcm1jOFlqSnBocE5MMU1iVGRCd2hSaHk0bmRHOXh6aXBST2c0QkUyZmZUVkhHWXlJemoKRWY2b1NZQ1dCSXlFc2U3a0FLc3VhTXFNWFNxQnoyazNvMjhOckdBa3ZOOWQwU1FML0p3clRtRGFBcko5bDBKNQpNYzdiYU1WL0k5Z1FuNWpKR01tK3FKK2FnSHN2N2dSbHNPUnZoZ1dwWk4raEIzSzJXcTEvejZBaXo2Tkp0ZnZUClJkT3prOUZ1VEFpdFdDZz0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQ==
+      service:
+        name: kstone-etcd-operator
+        namespace: kube-system
+        path: "/validating-etcd"
+    failurePolicy: Fail
+    name: kstone-etcd-operator.kube-system.svc
+    admissionReviewVersions: ["v1"]
+    sideEffects: NoneOnDryRun
+    rules:
+      - apiGroups: [ "etcd.tkestack.io" ]
+        apiVersions: [ "v1alpha1" ]
+        operations: [ "CREATE", "UPDATE" ]
+        resources: [ "etcdclusters" ]
